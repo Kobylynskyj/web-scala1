@@ -839,8 +839,8 @@ h2 {
 
 .button_scroll_top {
   border-radius: 16px;
-  border: 1px solid #fffefe;
-  background-color: #fffefe;
+  background: none;
+  border: none;
   position: sticky;
   left: 10px;
   bottom: 10px;
