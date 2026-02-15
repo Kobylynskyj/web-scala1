@@ -29,7 +29,7 @@ h2 {
   width: 100%;
   padding: 30px 30px 45px;
   height: 250px;
-  background-image: url(/img/1.png);
+  background-image: url(../img/1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -86,7 +86,7 @@ h2 {
   margin-top: 77px;
 }
 .main_first .section_first {
-  background-image: url(/img/2.png);
+  background-image: url(../img/2.png);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 566px;
@@ -164,7 +164,7 @@ h2 {
 .block_imege {
   width: 100%;
   height: 371px;
-  background-image: url(/img/3.png);
+  background-image: url(../img/3.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -189,7 +189,7 @@ h2 {
 .block_imege_second {
   max-width: 719px;
   height: 402px;
-  background-image: url(/img/4.png);
+  background-image: url(../img/4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
