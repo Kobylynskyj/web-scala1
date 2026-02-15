@@ -1,0 +1,21 @@
+@use"../../base/root" as root_second;
+
+.main_second{
+    display: flex;
+    max-width: 718px;
+    height: 279px;
+    margin-left: 124px;
+    .section_second{
+        display: flex;
+        flex-direction: column;
+    }
+}
+    .button_first{ 
+        margin-top: 31px;
+          max-width: 281px;
+        height: 51px;
+        background-color: root_second.$bg_color_second ;
+        :hover{
+            cursor: pointer;
+        }
+    }

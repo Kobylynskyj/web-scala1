@@ -1,0 +1,119 @@
+
+@keyframes header {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.first_block{
+    animation: 1s;
+    animation: header 2.0s ease-in  1;
+}
+
+
+
+    @keyframes heading {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.heading {
+  animation: heading 1.9s ease-in  1;
+}
+
+
+@keyframes section_first {
+  from { transform: translateX(-100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+.section_first {
+  animation: section_first 1.9s ease-in 0.5s 1;
+}
+
+
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.animated {
+  animation: slideInRight 1.9s ease-in 0.5s 1;
+}
+
+@keyframes title_section_first {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+.title_section_first {
+  animation: title_section_first 1.9s ease-in 0.5s 1;
+}
+
+
+@keyframes button_menu {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.button_menu {
+  animation: button_menu 1.5s ease-in 0.5s infinite;
+}
+
+
+@keyframes block_imege {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.block_imege {
+  animation: block_imege 1.5s ease-in 1.5s 1;
+}
+
+
+@keyframes article{
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.article {
+  animation: article 1.8s ease-in 1s 1;
+}
+
+@keyframes YouTube {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.YouTube{
+  animation: YouTube 1.8s ease-in 1;
+}
+
+
+@keyframes iframe_mapa {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.iframe_mapa {
+  animation: iframe_mapa 1.8s ease-in 1.5 1;
+}
+
+
+@keyframes main_second {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.main_second {
+  animation: main_second 1.8s ease-in 1.5 1;
+}
+
+
+@keyframes footer {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.footer {
+  animation: footer 1.8s ease-in 2s 1;
+}

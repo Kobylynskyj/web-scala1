@@ -1,0 +1,82 @@
+
+@mixin style_text ($aling:center,$size:15px,$height:20px, $weight:300) {
+    text-align: $aling;
+    font-size: $size; 
+    line-height: $height;
+    font-weight: $weight;
+ }
+.title_first{
+    @include style_text ($size:32px,$weight:500);
+    margin-top: 68px;
+    letter-spacing: 0.5em;
+    padding: 10px;
+} 
+.title_second{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+   max-width: 778px;
+   @include style_text ($height:24px,$weight:500,);
+  letter-spacing: 2px;
+   padding: 0 79px;
+   .title_span{
+    display: block;
+    text-align: center;
+   }
+}
+.title_third{
+    @include style_text(center);
+       font-size: 32px;
+       margin-top: 110px;
+     letter-spacing: 0.3em;
+     padding: 10px;
+}
+
+.title_fourth{
+    @include style_text($size:18px, $weight:500 );
+    margin: 27px auto;
+    padding: 10px;
+    max-width: 400px;
+    height: 300px;
+    letter-spacing: 2px;
+}
+
+.title_fifth{
+    @include style_text($size:32px,$height:1.5em, );
+    margin: 85px 128px;
+    max-width: 611px;
+    letter-spacing: 4px;
+}
+.title_sixth{
+    @include style_text($size:17px,$height:24px,$aling:left);
+    max-width: 711px;
+    margin-left: 124px;
+    letter-spacing: 3px;
+  
+}
+
+.title_seventh{
+     @include style_text($size:17px,$height:24px,$aling:left);
+    margin-top: 50px;
+    max-width: 711px;
+    margin-left: 124px;
+    letter-spacing: 3px;
+}
+
+.title_eigth{
+    @include style_text($size:17px,$aling:left);
+    margin-top: 50px;
+    max-width: 711px;
+    margin-left: 124px;
+    letter-spacing: 3px;
+}
+.title_tenth{
+     @include style_text($size:17px,$aling:left, $height:24px);
+     height: 197px;
+     letter-spacing: 1px;
+}
+
+.title_eleveth{
+    
+    color: #ffff;
+}

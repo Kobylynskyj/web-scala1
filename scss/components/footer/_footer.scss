@@ -1,0 +1,119 @@
+
+@use"../../base/root" as footer_color;
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 544px;
+    .border{
+        max-width: 50px;
+        background-color: footer_color.$bg_footer;
+    }
+}
+.img_scala{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    .footer_title{
+        max-width: 345px;
+        height: 55px;
+        text-align: center;
+        margin-top: 42px;
+        font-size: 17px;
+        font-weight: 200;
+        letter-spacing: 7px;
+        line-height: 18px;
+        padding: 10px;
+    }
+     button.buttom_follow:hover{
+            cursor: pointer;
+            background-color: rgba(90, 90, 90, 0.411);
+            transform: scale(0.99);
+            transition: background 0.4s ease-in;
+            box-shadow: -1px 1px 20px 7px rgba(75, 75, 75, 0.792);
+        }
+        button.buttom_email:hover{
+              cursor: pointer;
+            background-color: rgba(90, 90, 90, 0.411);
+            transform: scale(0.99);
+            transition: background 0.4s ease-in;
+            box-shadow: -1px 1px 20px 7px rgba(75, 75, 75, 0.792);
+        }
+}
+
+.footer_buttom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 101px;
+    border: 2px solid #020202;
+    border-radius: 12px;
+    .buttom_email{
+        display: block;
+        border: none;
+        width: 100%;
+        height: 50%;
+        border-radius: 12px 12px 0px 0px;
+        .email_h{
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        line-height: 18px;
+        }
+    }
+
+    .buttom_follow{
+        width: 100%;
+        height: 50%;
+        border: none;
+        border-radius: 0px 0px 12px 12px;
+        .follow_h{
+            font-weight: 700;
+        font-size: 16px;
+        }
+}
+}
+
+.footer_imege{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    :hover{
+        cursor: pointer;
+    }
+}
+
+.footer_group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    .footer_line{
+        max-width: 164px;
+    }
+      .footer_list{
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        margin-top: 131px;
+        padding: 10px;
+        letter-spacing: 4px;
+        font-size: 15px;
+      
+    .footer_a{
+        color: #020202;
+        padding: 10px;
+
+      } 
+}
+}
+
+.img_scala_footer{
+    height: 75px;
+}
+
